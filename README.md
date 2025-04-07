@@ -1,10 +1,16 @@
 Approach of GenAI Assessment Recommendation system
 Objective: To build an intelligent recommendation system.
+
 Libraries Used:
+
 •	pandas – for data handling
+
 •	openpyxl – to read Excel files
+
 •	sentence-transformers – for semantic text embeddings
+
 •	torch (PyTorch) – for tensor operations and similarity calculation
+
 Step-by-Step Approach:
 1. Dataset Creation:
  - Manually built the dataset by extracting relevant information from SHL's product catalog. -Selected fields essential for modelling: 'Relevant Job Roles', 'Knowledge, Skills, Abilities', 'Test', 'Test Type', 'Time(min)', ‘Remote Testing’, ‘Adaptive/IRT Support’.
